@@ -1,33 +1,43 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# === BACKEND (Spring Boot) ===
+/backend/target/
+/backend/.idea/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.apt_generated
+/backend/.factorypath
+/backend/.springBeans
+/backend/.sts4-cache
+/backend/*.iml
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven wrapper binary
+/backend/.mvn/wrapper/maven-wrapper.jar
 
-### IntelliJ IDEA ###
-.idea
+# === FRONTEND (Angular) ===
+/poll-app/node_modules/
+/poll-app/dist/
+/poll-app/.angular/cache/
+/poll-app/.idea/
+/poll-app/.vscode/
+/poll-app/*.iml
+
+# === IDEs ===
+.idea/
 *.iws
-*.iml
 *.ipr
+*.iml
 
-### NetBeans ###
+# === NetBeans ===
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/build/
 
-### VS Code ###
+# === VS Code ===
 .vscode/
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
